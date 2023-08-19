@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Game activity -->
+    <!----><integer name="game_act_update_controls_delay">15</integer> <!-- time in milliseconds -->
+    <!----><integer name="game_act_number_of_enemies">3</integer> <!-- time in milliseconds -->
+    <!-- \Game activity -->
+
+
+    <!-- GameField2D constants -->
+    <!----><integer name="game_field_2d_redraw_delay">15</integer> <!-- time in milliseconds -->
+    <!-- \GameField2D constants -->
+
+
+    <!-- GameField3D constants -->
+    <!----><integer name="game_field_3d_redraw_delay">15</integer> <!-- time in milliseconds -->
+    <!-- \GameField3D constants -->
+
+
+    <!-- Game settings -->
+    <!--    Graphic -->
+    <!--    --><integer name="game_graphic_settings_number_of_rays">300</integer>
+    <!--    \Graphic -->
+    <!-- \Game settings -->
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GameMap configuration -->
+    <!--    Allowed files -->
+    <!--    --><string name="game_map_resource_definition_file_name">resources.txt</string>
+    <!--    --><string name="game_map_description_file_name">map.txt</string>
+    <!--    \Allowed files -->
+
+    <!--    Allowed resources -->
+    <!--    --><string name="game_map_definition_resource_color">color</string>
+    <!--    --><string name="game_map_definition_resource_texture">texture</string>
+    <!--    \Allowed resources -->
+
+    <!--    Special constants -->
+    <!--    --><string name="game_map_empty_cell_symbol">.</string>
+    <!--    \Special constants -->
+    <!-- \GameMap configuration -->
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GameField2D -->
+    <!--    Game map colors -->
+    <!--    --><color name="game_field_2d_empty_cell">#7980A6</color>
+    <!--    --><color name="game_field_2d_wall_cell">#00093C</color>
+    <!--    \Game map colors -->
+
+    <!--    Player colors -->
+    <!--    --><color name="game_field_2d_player_point">#34EF00</color>
+    <!--    --><color name="game_field_2d_player_view_direction">#FFEB3B</color>
+    <!--    \Player colors -->
+
+    <!--    Enemy colors -->
+    <!--    --><color name="game_field_2d_enemy_point">#FF0000</color>
+    <!--    \Enemy colors -->
+    <!-- \GameField2D -->
+
+
+    <!-- GameField3D -->
+    <!--    Game map colors -->
+    <!--    --><color name="game_field_3d_sky">#00D9FF</color>
+    <!--    --><color name="game_field_3d_grass">#00C903</color>
+    <!--    \Game map colors -->
+
+    <!--    Enemy colors -->
+    <!--        Health bar -->
+    <!--    --><color name="game_field_3d_enemy_health_bar">#37FF00</color>
+    <!--    --><color name="game_field_3d_enemy_health_bar_outline">#590000</color>
+    <!--    \Enemy colors -->
+
+    <!--    Interface colors -->
+    <!--        Common -->
+    <!--    --><color name="game_field_3d_interface_main_color">#A80D2088</color>
+    <!--    --><color name="game_field_3d_interface_outline_color">#DA0D2088</color>
+
+    <!--        Health bar -->
+    <!--    --><color name="game_field_3d_health_bar">#37FF00</color>
+    <!--    --><color name="game_field_3d_health_bar_outline">#590000</color>
+    <!--    \Interface colors -->
+    <!-- \GameField3D -->
+</resources>

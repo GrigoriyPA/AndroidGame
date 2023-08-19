@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <!----><string name="app_name">Android game</string>
+    <!-- \Common -->
+
+
+    <!-- Main activity -->
+    <!--    Text -->
+    <!----><string name="main_act_title">Android game</string>
+
+    <!--    Buttons -->
+    <!----><string name="main_act_btn_start">Новая игра</string>
+    <!----><string name="main_act_btn_statistics">Статистика</string>
+    <!----><string name="main_act_btn_settings">Настройки</string>
+    <!----><string name="main_act_btn_exit">Выход</string>
+    <!-- \Main activity -->
+
+
+    <!-- Settings activity -->
+    <!--    Title -->
+    <!----><string name="settings_act_title">Настройки</string>
+
+    <!--    Buttons -->
+    <!----><string name="settings_act_btn_exit">Сохранить</string>
+    <!----><string name="settings_act_btn_reset">Сбросить</string>
+
+    <!--    Settings -->
+    <!----><string name="settings_act_setting_volume">Громкость</string>
+    <!----><string name="settings_act_setting_sensitivity">Чувствительность</string>
+    <!-- \Settings activity -->
+
+
+    <!-- Statistics activity -->
+    <!--    Title -->
+    <!----><string name="statistics_act_title">Статистика игрока</string>
+
+    <!--    Buttons -->
+    <!----><string name="statistics_act_btn_exit">Назад</string>
+    <!----><string name="statistics_act_btn_reset">Сбросить</string>
+
+    <!--    Statistics -->
+    <!----><string name="statistics_act_statistic_amount_wins">Побед:</string>
+    <!----><string name="statistics_act_statistic_amount_fails">Поражений:</string>
+    <!----><string name="statistics_act_statistic_amount_time">Времени в бою:</string>
+    <!----><string name="statistics_act_statistic_amount_kills">Убито врагов:</string>
+    <!-- \Statistics activity -->
+
+
+    <!-- Game activity -->
+    <!--    Game interface -->
+    <!--        FPS counter -->
+    <!--    --><string name="interface_game_act_fps_counter_text">FPS: %1$d</string> <!-- %1$d := integer FPS value -->
+
+    <!--        Pause button -->
+    <!--    --><string name="interface_game_act_btn_description">Пауза</string>
+    <!--    \Game interface -->
+
+    <!--    Pause modal window -->
+    <!--        Title -->
+    <!--    --><string name="interface_game_act_pause_modal_window_title">Пауза</string>
+
+    <!--        Buttons -->
+    <!--    --><string name="interface_game_act_pause_modal_window_btn_resume">Продолжить</string>
+    <!--    --><string name="interface_game_act_pause_modal_window_btn_settings">Настройки</string>
+    <!--    --><string name="interface_game_act_pause_modal_window_btn_stop">Выйти</string>
+    <!--    \Pause modal window -->
+
+    <!--    Final game modal window -->
+    <!--        Title -->
+    <!--    --><string name="interface_game_act_final_game_modal_window_title_fail">Поражение!</string>
+    <!--    --><string name="interface_game_act_final_game_modal_window_title_win">Победа!</string>
+
+    <!--        Buttons -->
+    <!--    --><string name="interface_game_act_final_game_modal_window_btn_new_game">Новая игра</string>
+    <!--    --><string name="interface_game_act_final_game_modal_window_btn_exit">Выйти</string>
+
+    <!--        Statistic -->
+    <!--    --><string name="interface_game_act_final_game_modal_window_stat_time">Время: %1$s</string> <!-- %1$s := game session time in string -->
+    <!--    --><string name="interface_game_act_final_game_modal_window_stat_killed">Убито врагов: %1$d</string> <!-- %1$d := integer count of killed enemies -->
+    <!--    \Final game modal window -->
+    <!-- \Game activity -->
+</resources>

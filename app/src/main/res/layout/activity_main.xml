@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/interface_main_act_background">
+
+    <TextView
+        android:layout_width="@dimen/interface_main_act_main_buttons_width"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/interface_white"
+        android:textSize="@dimen/interface_main_act_title_size"
+        android:text="@string/main_act_title" />
+
+    <Button
+        android:id="@+id/main_act_btn_start"
+        android:layout_width="@dimen/interface_main_act_main_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/interface_main_act_common_margin"
+        android:background="@drawable/shape_button_box"
+        android:textColor="@color/interface_white"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/main_act_btn_start" />
+
+    <Button
+        android:id="@+id/main_act_btn_statistics"
+        android:layout_width="@dimen/interface_main_act_main_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/interface_main_act_common_margin"
+        android:background="@drawable/shape_button_box"
+        android:textColor="@color/interface_white"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/main_act_btn_statistics" />
+
+    <Button
+        android:id="@+id/main_act_btn_settings"
+        android:layout_width="@dimen/interface_main_act_main_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/interface_main_act_common_margin"
+        android:background="@drawable/shape_button_box"
+        android:textColor="@color/interface_white"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/main_act_btn_settings" />
+
+    <Button
+        android:id="@+id/main_act_btn_exit"
+        android:layout_width="@dimen/interface_main_act_main_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/interface_main_act_common_margin"
+        android:background="@drawable/shape_button_box"
+        android:textColor="@color/interface_white"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/main_act_btn_exit" />
+
+</LinearLayout>

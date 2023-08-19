@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StatisticsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/interface_statistics_act_common_padding"
+    android:background="@color/interface_statistics_act_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/interface_statistics_act_title_margin"
+            android:textAlignment="center"
+            android:textColor="@color/interface_white"
+            android:textSize="@dimen/interface_statistics_act_title_size"
+            android:text="@string/statistics_act_title"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/interface_statistics_act_settings_column_width"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/interface_statistics_act_column_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statistics_act_statistic_amount_wins"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/statistics_act_test_amount_wins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/interface_statistics_act_settings_column_width"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/interface_statistics_act_column_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statistics_act_statistic_amount_fails"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/statistics_act_test_amount_fails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/interface_statistics_act_settings_column_width"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/interface_statistics_act_column_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statistics_act_statistic_amount_time"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/statistics_act_test_amount_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/interface_statistics_act_settings_column_width"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/interface_statistics_act_column_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statistics_act_statistic_amount_kills"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/statistics_act_test_amount_killed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/interface_white"
+                android:textSize="@dimen/interface_statistics_act_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/statistics_act_btn_exit"
+            android:layout_width="@dimen/interface_statistics_act_button_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button_box"
+            android:onClick="onClick"
+            android:text="@string/statistics_act_btn_exit"
+            android:textAllCaps="false"
+            android:textColor="@color/interface_white" />
+
+        <Button
+            android:id="@+id/statistics_act_btn_reset"
+            android:layout_width="@dimen/interface_statistics_act_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/interface_statistics_act_button_margin"
+            android:background="@drawable/shape_button_box"
+            android:onClick="onClick"
+            android:text="@string/statistics_act_btn_reset"
+            android:textAllCaps="false"
+            android:textColor="@color/interface_white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

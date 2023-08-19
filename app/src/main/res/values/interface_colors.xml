@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <!----><color name="interface_black">#000000</color>
+    <!----><color name="interface_white">#FFFFFF</color>
+    <!----><color name="interface_main_black">#BA000000</color>
+    <!----><color name="interface_main_blue">#D90000FF</color>
+    <!-- \Common -->
+
+
+    <!-- Main activity -->
+    <!----><color name="interface_main_act_background">#002FA6</color>
+    <!-- Main activity -->
+
+
+    <!-- Settings activity -->
+    <!----><color name="interface_settings_act_background">#002FA6</color>
+    <!-- \Settings activity -->
+
+
+    <!-- Statistics activity -->
+    <!----><color name="interface_statistics_act_background">#002FA6</color>
+    <!-- \Statistics activity -->
+
+
+    <!-- Game activity -->
+    <!--    FPS counter -->
+    <!--    --><color name="interface_game_act_fps_value">#FF0000</color>
+    <!--    \FPS counter -->
+
+    <!--    Joystick -->
+    <!--    --><color name="interface_game_act_joystick_main_color">#54132FC6</color>
+    <!--    --><color name="interface_game_act_joystick_main_outline_color">#A9132FC6</color>
+    <!--    --><color name="interface_game_act_joystick_internal_color">#BFA9B3EC</color>
+    <!--    --><color name="interface_game_act_joystick_internal_outline_color">#E6A9B3EC</color>
+    <!--    \Joystick -->
+
+    <!--    Pause modal window -->
+    <!--    --><color name="interface_game_act_pause_modal_window_background">#54000000</color>
+    <!--    \Pause modal window -->
+
+    <!--    Final game modal window -->
+    <!--    --><color name="interface_game_act_final_game_modal_window_background_fail">#54FF0000</color>
+    <!--    --><color name="interface_game_act_final_game_modal_window_background_win">#5408FF00</color>
+    <!--    \Final game modal window -->
+    <!-- \Game activity -->
+</resources>

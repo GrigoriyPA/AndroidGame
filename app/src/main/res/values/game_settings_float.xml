@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main metric units: m. (wall width) -->
+    <!-- Main damage units: dmg. -->
+
+    <!-- GameField2D constants -->
+    <!--    Player specifications -->
+    <!--    --><item name="game_field_2d_player_point_radius" format="float" type="dimen">0.5</item> <!-- size relative to size of cell -->
+    <!--    --><item name="game_field_2d_player_view_direction_size" format="float" type="dimen">2.0</item> <!-- size relative to size of cell -->
+    <!--    \Player specifications -->
+
+    <!--    Enemy specifications -->
+    <!--    --><item name="game_field_2d_enemy_point_radius" format="float" type="dimen">0.45</item> <!-- size relative to size of cell -->
+    <!--    \Enemy specifications -->
+    <!-- \GameField2D constants -->
+
+
+    <!-- GameField3D constants -->
+    <!--    Bullet specifications -->
+    <!--    --><item name="game_field_3d_constants_bullet_sprite_size" format="float" type="dimen">0.2</item> <!-- in m. units -->
+    <!--    --><item name="game_field_3d_constants_bullet_collision_animation_time" format="float" type="dimen">0.5</item> <!-- in seconds -->
+    <!--    \Bullet specifications -->
+
+    <!--    Game map specifications -->
+    <!--    --><item name="game_field_3d_game_map_constants_wall_height" format="float" type="dimen">1.0</item> <!-- in m. units -->
+    <!--    \Game map specifications -->
+
+    <!--    Interface -->
+    <!--        Common -->
+    <!--    --><item name="game_field_3d_constants_interface_outline_size" type="dimen">0.05</item> <!-- size relative to parent size -->
+
+    <!--        Health bar -->
+    <!--    --><item name="game_field_3d_constants_player_health_bar_width" format="float" type="dimen">0.2</item> <!-- size relative to width of GameField3D -->
+    <!--    --><item name="game_field_3d_constants_player_health_bar_height" format="float" type="dimen">0.05</item> <!-- size relative to height of GameField3D -->
+    <!--    --><item name="game_field_3d_constants_player_health_bar_offset" format="float" type="dimen">0.05</item> <!-- size relative to width|x and height|y of GameField3D -->
+    <!--    \Interface -->
+    <!-- \GameField3D constants -->
+
+
+    <!-- Enemy constants -->
+    <!--    View specifications -->
+    <!--    --><item name="enemy_settings_health_bar_height" format="float" type="dimen">0.1</item> <!-- in m. units -->
+    <!--    \View specifications -->
+
+    <!--    Cacodemon settings -->
+    <!--        Main specifications -->
+    <!--    --><item name="enemy_cacodemon_settings_speed" format="float" type="dimen">1.0</item> <!-- in m. per second -->
+    <!--    --><item name="enemy_cacodemon_settings_angle_speed" format="float" type="dimen">1.0</item> <!-- in radians per second -->
+    <!--    --><item name="enemy_cacodemon_settings_health" format="float" type="dimen">2.0</item> <!-- in dmg. units -->
+
+    <!--        Melee attack -->
+    <!--    --><item name="enemy_cacodemon_settings_melee_damage" format="float" type="dimen">3.0</item> <!-- in dmg. units -->
+    <!--    --><item name="enemy_cacodemon_settings_melee_attack_reload" format="float" type="dimen">1.5</item> <!-- in seconds -->
+    <!--    --><item name="enemy_cacodemon_settings_melee_attack_range" format="float" type="dimen">0.8</item> <!-- in m. units -->
+
+    <!--        Distance attack -->
+    <!--    --><item name="enemy_cacodemon_settings_bullet_damage" format="float" type="dimen">0.5</item> <!-- in dmg. units -->
+    <!--    --><item name="enemy_cacodemon_settings_bullet_speed" format="float" type="dimen">7.5</item> <!-- in m. per second -->
+    <!--    --><item name="enemy_cacodemon_settings_distance_attack_reload" format="float" type="dimen">3.0</item> <!-- in seconds -->
+    <!--    --><item name="enemy_cacodemon_settings_distance_attack_range" format="float" type="dimen">15.0</item> <!-- in m. units -->
+
+    <!--        View specifications -->
+    <!--    --><item name="enemy_cacodemon_settings_sprite_size" format="float" type="dimen">0.8</item> <!-- in m. units -->
+    <!--    --><item name="enemy_cacodemon_settings_collision_size" format="float" type="dimen">0.3</item> <!-- in m. units -->
+    <!--    --><item name="enemy_cacodemon_settings_bullet_flight_height" format="float" type="dimen">0.0</item> <!-- in m. units -->
+    <!--    --><item name="enemy_cacodemon_settings_die_animation_time" format="float" type="dimen">1.0</item> <!-- in seconds -->
+    <!--    \Cacodemon settings -->
+    <!-- \Enemy constants -->
+
+
+    <!-- Player settings -->
+    <!--    Main -->
+    <!--    --><item name="player_settings_fov_radians" format="float" type="dimen">1.047197</item>
+    <!--    --><item name="player_settings_person_speed" format="float" type="dimen">3.0</item> <!-- speed in m. per second -->
+    <!--    --><item name="player_settings_person_health" format="float" type="dimen">10.0</item> <!-- in dmg. units -->
+    <!--    --><item name="player_settings_minimal_spawn_distance" format="float" type="dimen">15.0</item> <!-- in dmg. units -->
+    <!--    \Main -->
+
+    <!--    Weapon -->
+    <!--    --><item name="player_settings_bullet_speed" format="float" type="dimen">9.0</item> <!-- speed in m. per second -->
+    <!--    --><item name="player_settings_bullet_damage" format="float" type="dimen">1.0</item> <!-- in dmg. units -->
+    <!--    \Weapon -->
+
+    <!--    View specifications -->
+    <!--    --><item name="player_settings_collision_size" format="float" type="dimen">0.2</item> <!-- in m. units -->
+    <!--    --><item name="player_settings_gun_height" format="float" type="dimen">0.4</item> <!-- size relative to height of screen -->
+    <!--    --><item name="player_settings_bullet_flight_height" format="float" type="dimen">-0.1</item> <!-- in m. units -->
+    <!--    --><item name="player_settings_bullet_spawn_distance" format="float" type="dimen">0.5</item> <!-- in m. units -->
+    <!--    \View specifications -->
+    <!-- \Player settings -->
+
+
+    <!-- Game settings -->
+    <!--    Control -->
+    <!--        Rotation -->
+    <!--    --><item name="game_control_settings_sensitivity" format="float" type="dimen">10.0</item>
+
+    <!--        Click -->
+    <!--    --><item name="game_control_settings_click_time" format="float" type="dimen">0.15</item> <!-- in seconds -->
+    <!--    \Control -->
+    <!-- \Game settings -->
+
+
+    <!-- Settings view constants -->
+    <!--    Sensitivity -->
+    <!--    --><item name="game_settings_constants_sensitivity_left_border" format="float" type="dimen">-5.0</item> <!-- minimal value of sensitivity -->
+    <!--    --><item name="game_settings_constants_sensitivity_right_border" format="float" type="dimen">5.0</item> <!-- maximal value of sensitivity -->
+    <!--    \Sensitivity -->
+    <!-- \Settings view constants -->
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <!--    Shapes -->
+    <!--        Button box -->
+    <!--    --><item name="interface_common_shape_button_box_outline_width" type="dimen">2dp</item>
+    <!--    --><item name="interface_common_shape_button_box_outline_radius" type="dimen">1dp</item>
+
+    <!--        Modal window box -->
+    <!--    --><item name="interface_common_shape_modal_window_box_outline_width" type="dimen">4dp</item>
+    <!--    --><item name="interface_common_shape_modal_window_box_outline_radius" type="dimen">4dp</item>
+    <!--    \Shapes -->
+    <!-- \Common -->
+
+
+    <!-- Main activity -->
+    <!--    Common -->
+    <!--    --><item name="interface_main_act_common_margin" type="dimen">10dp</item>
+    <!--    \Common -->
+
+    <!--    Text -->
+    <!--    --><item name="interface_main_act_title_size" type="dimen">30sp</item>
+    <!--    \Text -->
+
+    <!--    Main buttons -->
+    <!--    --><item name="interface_main_act_main_buttons_width" type="dimen">200dp</item>
+    <!--    \Main buttons -->
+    <!-- \Main activity -->
+
+
+    <!-- Settings activity -->
+    <!--    Common -->
+    <!--    --><item name="interface_settings_act_common_padding" type="dimen">10dp</item>
+    <!--    \Common -->
+
+    <!--    Bottom buttons -->
+    <!--    --><item name="interface_settings_act_button_width" type="dimen">200dp</item>
+    <!--    --><item name="interface_settings_act_button_margin" type="dimen">10dp</item>
+    <!--    \Bottom buttons -->
+
+    <!--    Title settings -->
+    <!--    --><item name="interface_settings_act_title_size" type="dimen">20sp</item>
+    <!--    --><item name="interface_settings_act_title_margin" type="dimen">10dp</item>
+    <!--    \Title settings -->
+
+    <!--    Settings column -->
+    <!--    --><item name="interface_settings_act_settings_column_width" type="dimen">300dp</item>
+    <!--    --><item name="interface_settings_act_column_margin" type="dimen">10dp</item>
+    <!--    --><item name="interface_settings_act_text_size" type="dimen">15sp</item>
+    <!--    --><item name="interface_settings_act_seek_bar_size" type="dimen">150dp</item>
+    <!--    \Settings column -->
+    <!-- \Settings activity -->
+
+
+    <!-- Statistics activity -->
+    <!--    Common -->
+    <!--    --><item name="interface_statistics_act_common_padding" type="dimen">10dp</item>
+    <!--    \Common -->
+
+    <!--    Bottom buttons -->
+    <!--    --><item name="interface_statistics_act_button_width" type="dimen">200dp</item>
+    <!--    --><item name="interface_statistics_act_button_margin" type="dimen">10dp</item>
+    <!--    \Bottom buttons -->
+
+    <!--    Title settings -->
+    <!--    --><item name="interface_statistics_act_title_size" type="dimen">20sp</item>
+    <!--    --><item name="interface_statistics_act_title_margin" type="dimen">10dp</item>
+    <!--    \Title settings -->
+
+    <!--    Statistic column -->
+    <!--    --><item name="interface_statistics_act_settings_column_width" type="dimen">300dp</item>
+    <!--    --><item name="interface_statistics_act_column_margin" type="dimen">10dp</item>
+    <!--    --><item name="interface_statistics_act_text_size" type="dimen">15sp</item>
+    <!--    \Statistic column -->
+    <!-- \Statistics activity -->
+
+
+    <!-- Game activity -->
+    <!--    Common -->
+    <!--    --><item name="interface_game_act_common_padding" type="dimen">7dp</item>
+    <!--    \Common -->
+
+    <!--    Game interface -->
+    <!--        FPS counter -->
+    <!--    --><item name="interface_game_act_render_view_fps_text_size" format="float" type="dimen">0.05</item> <!-- size relative to height of GameField3D -->
+
+    <!--        Minimap -->
+    <!--    --><item name="interface_game_act_render_view_game_field_2d_size" type="dimen">150dp</item>
+
+    <!--        Joystick -->
+    <!--    --><item name="interface_game_act_control_view_joystick_margin" type="dimen">20dp</item>
+    <!--    --><item name="interface_game_act_control_view_joystick_size" type="dimen">140dp</item>
+    <!--    --><item name="interface_game_act_control_view_joystick_internal_circle_size" format="float" type="dimen">0.3</item> <!-- size relative to size of main circle -->
+    <!--    --><item name="interface_game_act_control_view_joystick_outline_size" format="float" type="dimen">0.05</item> <!-- size relative to size of other circle -->
+
+    <!--        Pause button -->
+    <!--    --><item name="interface_game_act_btn_pause_width" type="dimen">35dp</item>
+    <!--    --><item name="interface_game_act_btn_pause_height" type="dimen">30dp</item>
+    <!--    \Game interface -->
+
+    <!--    Pause modal window -->
+    <!--        Window settings -->
+    <!--    --><item name="interface_game_act_pause_modal_window_width" type="dimen">200dp</item>
+    <!--    --><item name="interface_game_act_pause_modal_window_padding" type="dimen">10dp</item>
+    <!--    --><item name="interface_game_act_pause_modal_window_margin" type="dimen">10dp</item>
+    <!--    \Pause modal window -->
+
+    <!--    Final game modal window -->
+    <!--        Window settings -->
+    <!--    --><item name="interface_game_act_final_game_modal_window_padding" type="dimen">10dp</item>
+    <!--    --><item name="interface_game_act_final_game_modal_window_buttons_width" type="dimen">140dp</item>
+
+    <!--        Title settings -->
+    <!--    --><item name="interface_game_act_final_game_modal_window_title_margin" type="dimen">10dp</item>
+
+    <!--        Internal settings -->
+    <!--    --><item name="interface_game_act_final_game_modal_window_internal_margin" type="dimen">10dp</item>
+    <!--    --><item name="interface_game_act_final_game_modal_window_text_margin" type="dimen">20dp</item>
+    <!--    \Final game modal window -->
+    <!-- \Game activity -->
+</resources>
